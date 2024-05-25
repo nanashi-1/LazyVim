@@ -4,4 +4,5 @@
 
 local map = vim.keymap.set
 
-map("n", "<tab>", "<cmd>bnext<cr>", { silent = true })
+map("n", "<tab>", "<cmd>bn<cr>", { silent = true })
+map("n", "<S-tab>", "<cmd>bp<cr>", { silent = true })
